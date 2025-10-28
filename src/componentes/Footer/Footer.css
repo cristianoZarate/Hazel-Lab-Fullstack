@@ -1,0 +1,28 @@
+.footer {
+  background-color: #587042; /* Fern green - Fondo del footer */
+  color: #FAF7E6; /* Cosmic latte - Color del texto */
+  margin-top: auto;     /* clave para "pegarse" abajo dentro del flex */
+  width: 100%;          /* cubre todo el ancho del root */
+  box-shadow: 0 -2px 8px rgba(88, 112, 66, 0.2); /* Sombra con Fern green */
+}
+
+.footer .container {
+  padding: 15px 0;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.footer a {
+  color: #F8DE8C; /* Jasmine - Color de enlaces */
+  text-decoration: none;
+  margin: 0 6px;
+  transition: color 0.2s ease;
+}
+
+.footer a:hover {
+  color: #F6C531; /* Saffron - Hover más intenso */
+  text-decoration: underline;
+}
