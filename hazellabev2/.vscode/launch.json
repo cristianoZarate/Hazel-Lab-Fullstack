@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "BCryptGenerator",
+            "request": "launch",
+            "mainClass": "com.carrie.hazellabev2.BCryptGenerator",
+            "projectName": "hazellabev2"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Hazellabev2Application<hazellabev2>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.carrie.hazellabev2.Hazellabev2Application",
+            "projectName": "hazellabev2",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=43995 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=hazellabev2"
+        }
+    ]
+}
